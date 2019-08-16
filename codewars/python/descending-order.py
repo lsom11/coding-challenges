@@ -5,6 +5,7 @@ def Descending_Order(num):
     l = [x for x in str(num)]
     reverse_str = sorted(l, reverse=True)
     joined_str = ''.join(reverse_str)
+    print(joined_str)
     return int(joined_str)
 
 
