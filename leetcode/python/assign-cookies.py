@@ -10,4 +10,5 @@ class Solution:
                 satisfied += 1
                 s.pop()
                 g.pop()
+                print(satisfied)
         return satisfied
