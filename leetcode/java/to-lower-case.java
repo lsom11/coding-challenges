@@ -13,7 +13,6 @@ class Solution {
             }
             sb.append("" + c);
         }
-        System.out.println(sb);
         return sb.toString();
     }
 }
