@@ -14,6 +14,7 @@ public class Solution {
 
       // if this exists,
       if (arr_sums.containsKey(sum - k)) {
+        System.out.println(sum);
         result += arr_sums.get(sum - k);
       }
 
