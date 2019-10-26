@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - MaximumElement",
+      "request": "launch",
+      "mainClass": "MaximumElement",
+      "projectName": "coding-challenges_3e290f65"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - BalancedBrackets",
       "request": "launch",
       "mainClass": "BalancedBrackets",
