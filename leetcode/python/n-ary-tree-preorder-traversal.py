@@ -26,7 +26,7 @@ class Solution(object):
         
         stack.append(root)
         
-        while(len(stack) > 0):
+        while len(stack) > 0:
             node = stack.pop()
             output_arr.append(node.val)
             # preorder, need to reverse children so that first element gets popped first
