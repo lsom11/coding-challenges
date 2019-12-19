@@ -4,6 +4,7 @@ class Solution:
             profit = - float('inf')
             min_so_far = prices[0]
             for idx in range(1, len(prices)):
+                print(prices)
                 price = prices[idx]
                 if price < min_so_far:
                     min_so_far = price
