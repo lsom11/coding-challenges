@@ -3,7 +3,6 @@ class Solution:
         letters = []
         for char in S:
             if char.isalpha():
-                print(char)
                 letters.append(char)
         string_builder = ''
         for char in S:
