@@ -8,6 +8,7 @@ class Solution:
         
         for word in words:
             substr = word[:-1]
+            print(substr)
             # if length is 1 we can add to set or if the substr is in builtwords we can add
             if len(word) == 1 or substr in builtWords:
                 # this check helps with words with same length, sorted alphabetically already
