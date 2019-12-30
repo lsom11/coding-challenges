@@ -5,7 +5,6 @@ class Solution:
         rookrow = None
 
         for row in board:
-            print(row)
             if "R" in row:
                 rookindex = row.index("R")
                 rookrow = board.index(row)
