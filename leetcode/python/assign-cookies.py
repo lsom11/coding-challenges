@@ -4,6 +4,7 @@ class Solution:
         s.sort()
         satisfied = 0
         while s and g:
+            print(satisfied)
             if s[-1] < g[-1]:
                 g.pop()
             else:
