@@ -9,6 +9,7 @@
 class Solution:
     def averageOfLevels(self, root: TreeNode) -> List[float]:
         if root is not None:
+            print('not a root!')
             output = []
             depth = 0
 
