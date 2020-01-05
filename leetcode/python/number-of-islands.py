@@ -11,7 +11,6 @@ class Solution(object):
         return islands_count
     
     def callBFS(self, grid, i, j):
-        print(i, j)
         # check boundaries
         if i < 0 or i >= len(grid) or j < 0 or j >= len(grid[i]) or grid[i][j] == '0':
             return
