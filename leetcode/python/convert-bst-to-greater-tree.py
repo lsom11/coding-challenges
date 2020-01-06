@@ -17,6 +17,7 @@ class Solution(object):
             dfs(node.right)
             node.val += self.sum
             self.sum = node.val
+            print(sum)
             dfs(node.left)
 
         dfs(root)

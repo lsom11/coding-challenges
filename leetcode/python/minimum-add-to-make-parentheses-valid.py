@@ -5,6 +5,7 @@ class Solution(object):
         for parens in S:
             # if parens closed and open parens at top of stack, remove it, balanced
             if parens == ')' and stack and stack[-1] == '(':
+                print(parens)
                 stack.pop()
             # otherwise push to stack
             else:
