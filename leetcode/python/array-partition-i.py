@@ -2,6 +2,7 @@ class Solution(object):
     def arrayPairSum(self, nums):
         N = 2
         sorted_nums = sorted(nums)
+        print(sorted_nums)
         pairs = [sorted_nums[n:n+N] for n in range(0, len(sorted_nums), N)]
         sum = 0
         for pair in pairs:
