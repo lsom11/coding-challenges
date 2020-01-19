@@ -10,7 +10,6 @@ class Solution(object):
         # if val doesnt exist val becomes either t1 or t2, else null
         if not t1: return t2
         if not t2: return t1
-        print(t1.val, t2.val)
         t1.val += t2.val
         # do same down left and right
         t1.left = self.mergeTrees(t1.left, t2.left)
