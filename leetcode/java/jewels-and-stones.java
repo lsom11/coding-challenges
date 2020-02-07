@@ -15,6 +15,7 @@ class JewelsAndStones {
       char c = J.charAt(i);
       boolean inMap = map.containsKey(c);
       if (inMap) {
+        System.out.println(inMap);
         int keyCount = map.get(c);
         count += keyCount;
       }
