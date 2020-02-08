@@ -6,6 +6,7 @@ class Solution(object):
         sum = 0
         for pair in pairs:
             first, second = pair
+            print(first, second)
             sum += min(first, second)
         return sum
 
