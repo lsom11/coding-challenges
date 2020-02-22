@@ -14,6 +14,7 @@ class Solution:
                 distance = 0
             else:
                 distance += 1
+                print('not max')
 
         return max_distance + 1
 
