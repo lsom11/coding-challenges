@@ -10,6 +10,7 @@ class Solution:
         max_distance = 0
         for char in b_num:
             if char == '1':
+                console.log(char)
                 max_distance = max(distance, max_distance)
                 distance = 0
             else:
