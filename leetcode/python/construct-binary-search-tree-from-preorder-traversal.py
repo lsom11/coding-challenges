@@ -22,6 +22,7 @@ class Solution(object):
                 stack.append(cur)
                 cur.left = TreeNode(preorder[i])
                 cur = cur.left
+                print(cur)
             # if stack is empty we set next to right (has to be greater than cur)
             elif not stack:
                 cur.right = TreeNode(preorder[i])
