@@ -23,6 +23,7 @@ class Foo(object):
         self.second_cv.wait()
         # printSecond() outputs "second". Do not change or remove this line.
         printSecond()
+        print(second_cv)
         self.third_cv.set()
             
             
