@@ -2,6 +2,7 @@ class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         d = dict()
         for num in nums:
+            print(num)
             if num in d:
                 d[num] += 1
             else:
