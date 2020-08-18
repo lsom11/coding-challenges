@@ -10,7 +10,7 @@ class MyHashSet:
         if key not in self.arr[t]:
             self.arr[t].append(key)
 
-    def remove(self, key: int) -> None:
+    def remove(self, key: int) -> int:
         t = self.eval_hash(key)
         if key in self.arr[t]:
             self.arr[t].remove(key)
