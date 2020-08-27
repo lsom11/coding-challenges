@@ -1,5 +1,6 @@
 class MyHashSet: 
     def eval_hash(self, key):
+        print(key)
         return ((key*1031237) & (1<<20) - 1)>>5
 
     def __init__(self):
