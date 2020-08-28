@@ -12,6 +12,7 @@ class MyHashSet:
             self.arr[t].append(key)
 
     def remove(self, key: int) -> int:
+        print(key)
         t = self.eval_hash(key)
         if key in self.arr[t]:
             self.arr[t].remove(key)
