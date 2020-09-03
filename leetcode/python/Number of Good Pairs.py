@@ -5,5 +5,4 @@ class Solution:
         sum = 0
         for i,n in enumerate(nums):
             sum += nums[i:].count(n) -1
-        print(sum)
         return sum
