@@ -12,7 +12,6 @@ class Solution(object):
                 else:
                     return False # More than 2 different places between A & B
             A_letters.add(A[i])
-            print(A_letters)
         if diff1 != -1 and diff2 != -1: # There are 2 different places
             return A[diff1] == B[diff2] and A[diff2] == B[diff1]
         if diff1 != -1: # Only have 1 different place
