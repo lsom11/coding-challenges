@@ -1,6 +1,7 @@
 class Solution:
     def findPairs(self, nums, k):
         count = Counter(nums)
+        print(count)
         if k > 0:
             res = sum([i + k in count for i in count])
         else:
