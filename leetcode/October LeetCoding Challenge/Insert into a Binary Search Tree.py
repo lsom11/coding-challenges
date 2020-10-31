@@ -1,5 +1,6 @@
 class Solution:
     def insertIntoBST(self, root: TreeNode, val: int) -> TreeNode:
+        print(root)
         if not root:
             return TreeNode(val)
         
