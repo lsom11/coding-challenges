@@ -7,8 +7,6 @@ def insertion_sort(arr):
             i -= 1
             arr[i] = current
 
-    print(arr)
-
 def main():
     insertion_sort([1, 2, 5, 4, 2])
     insertion_sort([20, 43, 22, 4, 2])
