@@ -9,7 +9,6 @@ class Solution:
             
         if k % n == 0: return head
         middle = head
-        print(middle)
         for i in range(n - k%n-1):
             middle = middle.next
             
