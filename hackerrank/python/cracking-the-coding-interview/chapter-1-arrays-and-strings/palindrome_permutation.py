@@ -16,7 +16,3 @@ def palindrome_permutation(s):
                 del c[char]
         print(all(item == 1 for item in list(c.values())))
 
-
-palindrome_permutation('tact coa')
-palindrome_permutation('test')
-palindrome_permutation('tsssst')
