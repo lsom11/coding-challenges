@@ -18,10 +18,8 @@ def string_compression(s):
 
     compressed = ''.join(l)
     if len(compressed) > len(s):
-        print(s)
         return(s)
     else:
-        print(''.join(l))
         return(''.join(l))
 
 

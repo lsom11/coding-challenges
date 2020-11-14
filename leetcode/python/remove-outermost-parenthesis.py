@@ -5,7 +5,6 @@ class Solution:
     @staticmethod
     def removeOuterParentheses(self, S: str) -> str:
         count = 0
-        print(count)
         indices_to_remove = []
         for idx, char in enumerate(S):
             if char == '(':

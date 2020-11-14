@@ -22,7 +22,6 @@ class ZeroMatrixSolution:
                 if row[i] == True or column[j] == True:
                     matrix[i][j] = 0
 
-        print(matrix)
         return matrix
 
 
