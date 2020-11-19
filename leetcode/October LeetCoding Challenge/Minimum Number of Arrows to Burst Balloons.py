@@ -4,7 +4,7 @@ class Solution:
         n, count = len(points), 1
         if n == 0: return 0
         curr = points[0]
-        
+        print(curr)
         for i in range(n):
             if curr[1] < points[i][0]:
                 count += 1
