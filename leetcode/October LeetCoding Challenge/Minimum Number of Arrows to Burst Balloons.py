@@ -5,6 +5,7 @@ class Solution:
         if n == 0: return 0
         curr = points[0]
         for i in range(n):
+            print(i)
             if curr[1] < points[i][0]:
                 count += 1
                 curr = points[i]
