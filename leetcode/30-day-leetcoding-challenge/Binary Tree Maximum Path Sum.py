@@ -8,7 +8,6 @@ class Solution(object):
     def maxPathSum(self, root):
         self.max = float('-inf')
         def get_sum(root):
-            print(root)
             if root is None:
                 return 0
             else:
