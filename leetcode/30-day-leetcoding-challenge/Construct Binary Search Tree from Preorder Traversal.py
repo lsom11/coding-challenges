@@ -13,7 +13,6 @@ class Solution:
         i = 1
         while i<len(preorder) and preorder[i] < root.val:
             i+=1
-            print(i)
         root.left = self.bstFromPreorder(preorder[1:i])
         root.right = self.bstFromPreorder(preorder[i:])
         return root
