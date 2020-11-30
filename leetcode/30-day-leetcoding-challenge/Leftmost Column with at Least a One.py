@@ -13,7 +13,6 @@ class Solution:
         current_row = 0
         current_col = cols - 1
         while current_row < rows and current_col >= 0:
-            print(current_row, rows)
             if binaryMatrix.get(current_row, current_col) == 0:
                 current_row += 1
             else:
