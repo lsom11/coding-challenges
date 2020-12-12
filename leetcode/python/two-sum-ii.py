@@ -12,5 +12,3 @@ class Solution:
                 remainder_map[num] = idx
 
 
-s = Solution()
-s.twoSum([2, 7, 11, 15])  # [1, 2]
