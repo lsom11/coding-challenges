@@ -2,7 +2,7 @@ class Solution(object):
     def arrayRankTransform(self, arr):
         rank = {}
         start = 1
-        
+        print(rank)
         for each in sorted(arr):
             if each in rank:
                 continue
