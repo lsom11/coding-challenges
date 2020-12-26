@@ -5,7 +5,7 @@ class Solution:
         # set last index of char
         for i, char in enumerate(S):
             last_seen[char] = i
-            
+            print(last_seen)
         for i, char in enumerate(S):
             max_last_seen = max(max_last_seen, last_seen[char])
             count += 1
