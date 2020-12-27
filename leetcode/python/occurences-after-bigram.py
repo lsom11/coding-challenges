@@ -5,4 +5,5 @@ class Solution:
         for i in range(len(words) - 2):
             if words[i] == first and words[i + 1] == second:
                 word_list.append(words[i + 2])
+        print(word_list)
         return word_list    
